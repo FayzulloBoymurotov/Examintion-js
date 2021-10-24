@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Java Script Imtixon</title>
+
+</head>
+
+<body class="body-section">
+
+    <!-- Section-top -->
+    <section class="section-top">
+        <div class="container pt-5">
+            <div class="h1-div">
+                <h1 class="text-center">Java Script bo'yicha Imtixon</h1>
+            </div>
+            <div class="box-1 pt-5 d-flex justify-content-between">
+                <ul class="user-lists d-inline-block w-50">
+                    <h3>USERS</h3>
+                </ul>
+                <ul class="post-lists d-inline-block w-50">
+                    <h3>POSTS</h3>
+                </ul>
+                <ul class="commet-lists d-inline-block w-50">
+                    <h3>COMMENTS</h3>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Template-user -->
+    <template id="user-info">
+        <li class="user-card">
+            <h5 class="user-name d-inline-block"></h5>
+            <h5 class="user-name_2 d-inline-block text-danger">Bret</h5>
+            <p class="user-email text-primary"></p>
+            <address class="user-address d-inline-block mb-0 pb-0"></address>
+            <a class="link mt-0 pt-0 d-inline-block" target="__blank"
+                href="https://www.google.com/maps/place/-37.3159,81.1496">Map</a>
+            <p class="user-phone mb-0"></p>
+            <a href="https://www.google.com/maps/place/-37.3159,81.1496" class="user-website"></a>
+            <p class="company"></p>
+        </li>
+    </template>
+
+    <!-- Template-post -->
+    <template id="user-post">
+        <li class="post-card">
+            <h5 class="post-title"></h5>
+            <p class="body"></p>
+        </li>
+    </template>
+
+    <!-- Template-comment -->
+    <template id="user-commet">
+        <li class="commit-card">
+            <h5 class="commet-name"></h5>
+            <p class="emails"></p>
+            <p class="body"></p>
+        </li>
+    </template>
+
+
+    <!-- Bootstrap and Java script -> link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
+    </script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
